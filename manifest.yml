@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: testing changes
+  host: testing-changes
+  disk_quota: 1024M
+  services:
+  - testing changes-cloudantNoSQLDB
